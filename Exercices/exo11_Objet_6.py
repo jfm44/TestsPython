@@ -38,17 +38,18 @@ class Vendeur(Employe):
         retour = Employe.__str__(self)
         return retour
 
-personne1 = Personne("JF","MARECH")
-print("personne1 : ",personne1)
+if __name__ == "__main__":
+    personne1 = Personne("JF","MARECH")
+    print("personne1 : ",personne1)
 
-personne2 = Client("Client","Monsieur","01/05/2019")
-print("personne2 : ",personne2)
+    personne2 = Client("Client","Monsieur","01/05/2019")
+    print("personne2 : ",personne2)
 
-personne3 = Employe("EMPLOYEE","Madame","01/01/1965","01/01/2019")
-print("personne3 : ",personne3)
+    personne3 = Employe("EMPLOYEE","Madame","01/01/1965","01/01/2019")
+    print("personne3 : ",personne3)
 
-personne4 = Vendeur("VENDEUR","Inconnu","01/01/1980","30/09/2018")
-print("personne4 : ",personne4)
+    personne4 = Vendeur("VENDEUR","Inconnu","01/01/1980","30/09/2018")
+    print("personne4 : ",personne4)
 
-print("personne4._nom : ",personne4._nom)
+    print("personne4._nom : ",personne4._nom)
 

@@ -1,0 +1,616 @@
+https://www.hackerrank.com/
+
+https://leetcode.com/
+
+https://regexr.com/
+
+https://asyncio.readthedocs.io/en/latest/
+
+https://docs.python.org/fr/3/library/asyncio.html
+
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices> py.exe -m doctest -v Exo20_Doctest.py
+Trying:
+    ajout(1,1)
+Expecting:
+    2
+ok
+Trying:
+    ajout(2.1,3.4)
+Expecting:
+    5.5
+ok
+1 items had no tests:
+    Exo20_Doctest
+1 items passed all tests:
+   2 tests in Exo20_Doctest.ajout
+2 tests in 2 items.
+2 passed and 0 failed.
+Test passed.
+
+monFichier = open("C:\Users\ib\Documents\Python\TestsPython\Exercices\MesPersonnes.sav","rb") 
+
+PIP
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices> py.exe -m pip list
+Package           Version
+----------------- -------
+astroid           2.2.5
+colorama          0.4.1
+isort             4.3.20
+lazy-object-proxy 1.4.1
+mccabe            0.6.1
+pip               19.1.1
+pylint            2.3.1
+pyreadline        2.1
+setuptools        40.8.0
+six               1.12.0
+typed-ast         1.3.5
+wrapt             1.11.1
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices> py.exe -m pip serach mysql
+ERROR: unknown command "serach" - maybe you meant "search"
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices>
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices> py.exe -m pip serach "mysql"
+ERROR: unknown command "serach" - maybe you meant "search"
+PS C:\Users\ib\Documents\Python\TestsPython\Exercices> py.exe -m pip search  mysql
+mysql (0.0.2)                                                   - Virtual package for MySQL-python
+weibo-mysql (0.1)                                               - insert mysql
+WintxDriver-MySQL (2.0.0-1)                                     - MySQL support for Wintx
+py-mysql (1.0)                                                  - Operating Mysql for Python.
+bottle-mysql (0.3.1)                                            - MySQL integration for Bottle.
+deployfish-mysql (0.2.13)                                       - Deployfish MySQL plugin
+mtstat-mysql (0.7.3.3)                                          - MySQL Plugins for mtstat
+MySQL-python (1.2.5)                                            - Python interface to MySQL
+mysql-utilities (1.4.3)                                         - MySQL Utilities 1.4.3 (part of MySQL Workbench Distribution 6.0.0)
+DStore-MySQL (0.1.0a2)                                          - MySQL Storage layer for DStore
+mysql-grantparser (1.0.3)                                       - parse MySQL SHOW GRANTS.
+Flask-MySQL (1.4.0)                                             - Flask simple mysql client
+sanic-mysql (0.0.5)                                             - Adds mysql support to sanic .
+mysql-connector (2.2.9)                                         - MySQL driver written in Python
+clickhouse-mysql (0.0.2018030506)                               - MySQL to ClickHouse data migrator
+cwmon-mysql (0.5.0)                                             - A cwmon plugin for monitoring MySQL.
+mysql-pyrex (0.9.0a1)                                           - Pyrex interface to the MySQL 5 API.
+ETLT-MySQL (0.10.0)                                             - ETLT extension for MariaDB and MySQL databases
+django-mysql (3.1.0)                                            - Extensions to Django for use with MySQL/MariaDB
+HTSQL-MYSQL (2.3.3)                                             - A Database Query Language (MySQL backend)
+mysql-toolkit (1.9.1)                                           - Pure Python MySQL development toolkit.
+slackminion-mysql (0.1.0)                                       - Provides a MySQL state handler for slackminion
+pytest-mysql (2.0.1)                                            - MySQL process and client fixtures for pytest
+Tornado-MySQL (0.5.1)                                           - Pure Python MySQL Driver for Tornado
+mysql-replay (0.1.24)                                           - Replay queries from a mysql slow log
+mysql-client (0.0.1)                                            - A modern mysql client driver for modern python
+mysql-autodoc (0.2)                                             - Generate HTML documentation from a mysql database
+dojo-mysql (0.0.29)                                             - Dojo source and sink adapters for MySQL connections.
+tap-mysql (1.13.6)                                              - Singer.io tap for extracting data from MySQL
+brubeck-mysql (0.2.8)                                           - Brubeck module for MySQL Querysets using Schematics
+PyStratum-MySQL (0.10.16)                                       - A stored procedure and function loader, wrapper generator for MySQL
+pulumi-mysql (0.18.1)                                           - A Pulumi package for creating and managing mysql cloud resources.
+mysql-statsd (0.1.5)                                            - Daemon that gathers statistics from MySQL and sends them to statsd.
+format-mysql (1.0.0)                                            - Format-MySQL is a system designed to use MySQL tables as if it they were a NoSQL document. It uses Format-OC as the underlying data structure and
+                                                                  validation system.
+MySQL-python-embedded (1.2.7)                                   - Python interface to MySQL
+bottle-mysql-connector (0.0.4)                                  - MySQL integration for Bottle.
+MySQL-python-glb (1.2.6)                                        - Python interface to MySQL
+opencensus-ext-mysql (0.1.2)                                    - OpenCensus MySQL Integration
+MySQL-python-vincent (1.2.5)                                    - Python interface to MySQL
+mysql-tracer (1.3.0)                                            - A MySQL client to run queries, write execution reports and export results
+mysql-corsair (0.0.40)                                          - Tool to move slices of data from one MySQL store to another
+mysql-replication (0.19)                                        - Pure Python Implementation of MySQL replication protocol build on top of PyMYSQL.
+wxy-MySQL (0.0.7)                                               - MySQL&#22522;&#26412;&#22686;&#21024;&#25913;&#26597;&#23553;&#35013;
+mysql-connector-python (8.0.16)                                 - MySQL driver written in Python
+prometheus-mysql-exporter (0.1.1)                               - MySQL query Prometheus exporter
+mysql-connector-repackaged (0.3.1)                              - MySQL driver written in Python
+django-mysql-manager (0.1.4)                                    - django-mysql-manager is a Django based management interface for MySQL users and databases.
+mysql-batch (1.2)                                               - Run large MySQL UPDATE and DELETE queries with small batches to prevent table/row-level locks
+django-mysql-fuzzycount (0.4)                                   - Approximate query counts for MySQL and Django.
+django-mysql-pymysql (0.1)                                      - Django MySQL backend for PyMySQL adapter
+scrapy-mysql-pipeline (2017.10.10)                              - Asynchronous mysql Scrapy item pipeline
+tap-mysql-koszti (1.0.4)                                        - Singer.io tap for extracting data from MySQL - fork of tap-mysql 1.9.24 with custom changes
+mysql-latin1-codec (2.0)                                        - Python string codec for MySQL's latin1 encoding
+mysql-connector-async-dd (2.0.2)                                - mysql async connection
+django-mysql-aesfield (0.2.1)                                   - Django Model Field that supports AES encryption in MySQL
+django-mysql-geventpool (0.2.4)                                 - Add a MySQL connection pool for django using gevent
+mysql-to-json (1.0.0)                                           - Connects to a MySQL database and exports selected data to JSON.
+monitor-mysql-overflows (1.1.1)                                 - MySQL utilities to detect integer like columns overflows
+django-mysql-fix (0.1.6)                                        - This project contains optimizations (hacks) for MySQL for Django ORM
+mysql-binlog-explorer (0.2.3)                                   - Web UI to Explore MySQL's binlog files a little easier.
+django-mysql-ssl (0.0.1)                                        - Backport dbshell support for ssl mysql connections in Django < 1.8
+check-mysql-slave (0.2.1)                                       - Check MySQL seconds behind master for Nagios-like monitoring.
+py-mysql-elasticsearch-sync (0.4.2)                             - MySQL to Elasticsearch sync tool
+mysql-connector-python-rf (2.2.2)                               - MySQL driver written in Python
+mysql-connector-python-dd (2.0.2)                               - MySQL driver written in Python
+django-mysql-utf8mb4 (0.1.7)                                    - A migration, command and checks to ensure Django and MySQL are using the best-avaliable collation
+riptide-db-mysql (0.1.1)                                        - Tool to manage development environments for web applications using containers - MySQL Database Drvier
+django-mysql-s3-backuper (0.0.12)                               - Simple s3 backups for django projects based on MySQL
+odoo11-addon-base-external-dbsource-mysql (11.0.1.0.0.99.dev4)  - External Database Source - MySQL
+odoo10-addon-base-external-dbsource-mysql (10.0.1.0.0)          - External Database Source - MySQL
+mysql-autoxtrabackup (1.5.4)                                    - Commandline tool written in Python 3 for using Percona XtraBackup
+MySQL-Tool (0.0.3)                                              - MysqlDb module use.
+dox-mysql (0.0.1)                                               -
+django-mysql-pool (0.2)                                         - Django application.
+django-mysql-rds (0.3.1)                                        -
+django-mysql-pool-pramod (1.0.0)                                - A package for django pooling
+queryparser-python2 (0.4.2)                                     - Parses MySQL and translates ADQL to MySQL.
+queryparser-python3 (0.4.2)                                     - Parses MySQL and translates ADQL to MySQL.
+masql (0.0.5)                                                   - mysql for humans
+RESTGuardian (0.0.1)                                            - RESTful MySQL
+mysqlutil (1.1.2)                                               - util for mysql
+oh-my-toolkit (0.1.0)                                           - A MySQL toolkit.
+dbop (0.0.0.2)                                                  - mysql operate
+db_util (0.0.6)                                                 - MySQL Utility
+SakuraMysql (0.1.6)                                             - mysql orm
+django-mysql-pool-by-pramod (1.0.0)                             - A package for django pooling
+PySQLPool (0.3.8)                                               - Python MySQL Connection Pooling and MySQL Query management
+cymysql2 (0.1)                                                  - MySQL driver with Cython
+Flask_Mysql_Html (1.0.2)                                        - a look mysql html
+bx-sql (0.1.2)                                                  - Database access for MySQL.
+Products.ZMySQLDA (4.2)                                         - MySQL Zope adapter.
+GortzTools (0.3)                                                - Array to mysql tools
+testMysql-zhoucl09164 (1.0)                                     - mysql test function
+oursql3 (0.9.4)                                                 - MySQL bindings for python.
+bottle-pymysql (0.1.3)                                          - MySQL integration for Bottle.
+PyMysqlDB (0.0.2)                                               - manage mysql tool
+silver-surfer-models (0.0.22.dev0)                              - MySQL db models
+smysql (0.2.7)                                                  - simple mysql orm
+mydumper (0.1)                                                  - Simple MySQL dumper
+aiomysql (0.0.20)                                               - MySQL driver for asyncio.
+
+Exemple de generateur
+
+>>> a=(i for i in range(0,42,4))
+>>> a
+<generator object <genexpr> at 0x05EBCDB0>
+>>> next(a)
+0
+>>> next(a)
+4
+>>> next(a)
+8
+>>> next(a)
+12
+>>> next(a)
+16
+>>> next(a)
+20
+>>> next(a)
+24
+>>> next(a)
+28
+>>> next(a)
+32
+>>> next(a)
+36
+>>> next(a)
+40
+>>> next(a)
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    next(a)
+StopIteration
+>>> 
+>>> a=(i for i in range(0,42,4))
+>>> while (a) : next(a)
+
+0
+4
+8
+12
+16
+20
+24
+28
+32
+36
+40
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    while (a) : next(a)
+StopIteration
+>>> 
+
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 21:26:53) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> sequence = ['a','b','c']
+>>> newSequence.append(e.upper()) e in sequence
+SyntaxError: invalid syntax
+>>> 
+>>> newSequence.append(e.upper()) for e in sequence
+SyntaxError: invalid syntax
+>>> newSequence = []
+>>> newSequence.append(e.upper()) for e in sequence
+SyntaxError: invalid syntax
+>>> newSequence.append(e.upper() for e in sequence)
+>>> newSequence
+[<generator object <genexpr> at 0x05990DB0>]
+>>> e.upper() for e in sequence
+SyntaxError: invalid syntax
+>>> (e.upper() for e in sequence)
+<generator object <genexpr> at 0x05C13A70>
+>>> newSequence.append([e.upper() for e in sequence])
+>>> newSequence
+[<generator object <genexpr> at 0x05990DB0>, ['A', 'B', 'C']]
+>>> newSequence = []
+>>> newSequence.append([e.upper() for e in sequence])
+>>> newSequence
+[['A', 'B', 'C']]
+>>> newSequence = []
+>>> newSequence.append([e.upper()] for e in sequence)
+>>> newSequence
+[<generator object <genexpr> at 0x05990DB0>]
+>>> newSequence = []
+>>> newSequence.append(e.upper()) for e in sequence
+SyntaxError: invalid syntax
+>>> (newSequence.append(e.upper()) for e in sequence)
+<generator object <genexpr> at 0x05C13A70>
+>>> newSequence
+[]
+>>> newSequence.append((e.upper() for e in sequence))
+>>> newSequence
+[<generator object <genexpr> at 0x05990DB0>]
+>>> newSequence = []
+>>> newSequence.append([(e.upper() for e in sequence)])
+>>> newSequence
+[[<generator object <genexpr> at 0x05C13A70>]]
+>>> newSequence = []
+>>> newSequence.append([e.upper() for e in sequence])
+>>> newSequence = []
+>>> newSequence.append([e.upper() for e in sequence])
+>>> newSequence
+[['A', 'B', 'C']]
+>>> newSequence = []
+>>> newSequence.extend([e.upper() for e in sequence])
+>>> newSequence
+['A', 'B', 'C']
+>>> newSequence = []
+>>> for elem in sequence:
+	newSequence.append(elem.upper())
+
+	
+>>> newSequence
+['A', 'B', 'C']
+>>> newSequence = []
+>>> 
+>>> newSequence = [e.upper() for e in sequence]
+>>> newSequence
+['A', 'B', 'C']
+>>> e
+Traceback (most recent call last):
+  File "<pyshell#44>", line 1, in <module>
+    e
+NameError: name 'e' is not defined
+>>> sommes = [sum(range(n) for n in range(10)]
+	  
+SyntaxError: invalid syntax
+>>> sommes = [sum(range(n)) for n in range(10)]
+>>> sommes
+[0, 0, 1, 3, 6, 10, 15, 21, 28, 36]
+>>> sommes = [sum(range(n)) for n in range(10) if n % 2 == 0]
+>>> sommes
+[0, 1, 6, 15, 28]
+>>> newSequence.append([e.upper() for e in sequence])
+>>> newSequence
+['A', 'B', 'C', ['A', 'B', 'C']]
+>>> 
+>>> liste_a = [1,2,3]
+>>> liste_b = [2,7]
+>>> differentSum = [(a for a in liste_a, b for b in liste_b) if a!=b]
+SyntaxError: invalid syntax
+>>> differentSum = [(a,b) for a in liste_a for b in liste_b) if a!=b]
+SyntaxError: invalid syntax
+>>> differentSum = [(a,b) for a in liste_a for b in liste_b if a!=b]
+>>> differentSum
+[(1, 2), (1, 7), (2, 7), (3, 2), (3, 7)]
+>>> entree = input("donner un entier)
+	       
+SyntaxError: EOL while scanning string literal
+>>> entree = input("donner un entier")
+donner un entier
+>>> 
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 2
+Traceback (most recent call last):
+  File "C:/Users/ib/Documents/Python/Exo1.py", line 3, in <module>
+    if entree % 2 == 0 :  # pair
+TypeError: not all arguments converted during string formatting
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 2
+Ce nombre est pair
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 3
+Ce est impair et multiple de trois
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 9
+Ce nombre est impair et multiple de trois
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo1.py ===============
+donner un entier : 7
+Ce nombre n'est ni pair ni multiple de trois
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+[' ', ' ']^
+[' ', ' ']^
+[' ', ' ']^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+[' ']^
+[' ']^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+[' ']^
+[' ']^
+[' ']^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+[]^
+[' ']^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 
+	[]^
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+[]^
+[]^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^
+   ^
+    ^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^
+   ^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^
+   ^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  
+   ^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  
+   ^
+    ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+    
+   ^
+  ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+   
+  ^
+ ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+   ^
+  ^^
+ ^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+   ^^
+  ^^^
+ ^^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^
+ ^^
+ ^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^^
+ ^^^
+ ^^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+ ^^
+ ^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+>>> 
+donner le nombre de lignes : 2
+  ^
+ ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  ^^
+ ^^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+  
+ ^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+>>> 
+donner le nombre de lignes : 2
+ ^
+ ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+>>> 
+donner le nombre de lignes : 2
+ ^
+ ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 2
+ ^
+ ^^
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 
+	^
+Ce n'est pas un nombre
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo2.py ===============
+donner le nombre de lignes : 3
+  ^
+ ^^
+ ^^^
+
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste1,5,3,6,
+>>> 
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1,2,3,5,6,7
+liste saisie  ['1,2,3,5,6,7']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1,2,3,5,6
+liste saisie  ['1', ',', '2', ',', '3', ',', '5', ',', '6']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1,2,5,6,9,6
+liste saisie  ['1', '2', '5', '6', '9', '6']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1,2,5,6,8
+liste saisie  ['1', '2', '5', '6', '8']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 2 5 3 8 2 
+liste saisie  ['2', '5', '3', '8', '2']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 
+	liste saisie  ['1', '2', '5', '6', '9', '6']
+liste saisie  []
+Traceback (most recent call last):
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <module>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <listcomp>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+NameError: name 'ListeCouleurs' is not defined
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1h2j2j1 
+liste saisie  ['1', 'h', '2', 'j', '2', 'j', '1']
+Traceback (most recent call last):
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <module>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <listcomp>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+NameError: name 'ListeCouleurs' is not defined
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1 2 2 6 5 2,9
+liste saisie  ['1', '2', '2', '6', '5', '2', '9']
+Traceback (most recent call last):
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <module>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+  File "C:/Users/ib/Documents/Python/Exo3.py", line 10, in <listcomp>
+    JeuComplet = [(v,c) for v in ListeCartes for c in ListeCouleurs]
+NameError: name 'ListeCouleurs' is not defined
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1,2,6,2 
+liste saisie  ['1', '2', '6', '2']
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 1 5 5  3 88 
+liste saisie  ['1', '5', '5', '3', '8', '8']
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste :  5 2 6 2 7 6 
+liste saisie  ['5', '2', '6', '2', '7', '6']
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+Jeu Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste :  5 4 8 2  8 ,  4 5 : 5 
+liste saisie  ['5', '4', '8', '2', '8', '4', '5', ':', '5']
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+Jeu Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste :  5 2 1 5 2, ; 5
+ 
+liste saisie  ['5', '2', '1', '5', '2', '5']
+ 
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+ 
+Jeu Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+ 
+Jeu Trefle Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo3.py ===============
+donnez votre liste : 
+	Jeu Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+ 
+liste saisie  []
+ 
+Jeu complet  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle'), ('V', 'Coeur'), ('V', 'Carreau'), ('V', 'Pique'), ('V', 'trefle'), ('D', 'Coeur'), ('D', 'Carreau'), ('D', 'Pique'), ('D', 'trefle'), ('R', 'Coeur'), ('R', 'Carreau'), ('R', 'Pique'), ('R', 'trefle')]
+ 
+Jeu Sans Tete  [('1', 'Coeur'), ('1', 'Carreau'), ('1', 'Pique'), ('1', 'trefle'), ('2', 'Coeur'), ('2', 'Carreau'), ('2', 'Pique'), ('2', 'trefle'), ('3', 'Coeur'), ('3', 'Carreau'), ('3', 'Pique'), ('3', 'trefle'), ('4', 'Coeur'), ('4', 'Carreau'), ('4', 'Pique'), ('4', 'trefle'), ('5', 'Coeur'), ('5', 'Carreau'), ('5', 'Pique'), ('5', 'trefle'), ('6', 'Coeur'), ('6', 'Carreau'), ('6', 'Pique'), ('6', 'trefle'), ('7', 'Coeur'), ('7', 'Carreau'), ('7', 'Pique'), ('7', 'trefle'), ('8', 'Coeur'), ('8', 'Carreau'), ('8', 'Pique'), ('8', 'trefle'), ('9', 'Coeur'), ('9', 'Carreau'), ('9', 'Pique'), ('9', 'trefle'), ('10', 'Coeur'), ('10', 'Carreau'), ('10', 'Pique'), ('10', 'trefle')]
+ 
+Jeu Trefle Sans Tete  [('1', 'trefle'), ('2', 'trefle'), ('3', 'trefle'), ('4', 'trefle'), ('5', 'trefle'), ('6', 'trefle'), ('7', 'trefle'), ('8', 'trefle'), ('9', 'trefle'), ('10', 'trefle')]
+>>> ListeCartes = ['1','2','3','4','5','6','7','8','9','10','V','D','R']
+>>> listeCouleurs = ['Coeur','Carreau','Pique','trefle']
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo4.py ===============
+n :  a
+n :  1
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo4.py ===============
+Appel tuple ===>
+n :  a
+n :  1
+Appel tuple ===>
+n :  {'a': 125, 'b': 65465}
+>>> 
+=============== RESTART: C:/Users/ib/Documents/Python/Exo4.py ===============
+Appel tuple ===>
+n :  a
+n :  1
+Appel tuple ===>
+n :  {'a': 125, 'b': 65465}
+>>> var = 10
+
+

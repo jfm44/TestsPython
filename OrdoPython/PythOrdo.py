@@ -12,15 +12,15 @@ from math import *
 class Requete(object):
     """objet REquete destiné aux execution par les threads par l'intermediaire du tableau blanc"""
     def __init__(self):
-        self.Type = 'Test'       # Type de la requete Test, Secenario, Requete...
-        self.statut = 'A'        # 'A'=en Attente de traitement, 'E'=En-cours de traitement, 'F'=Fini
-        self.emetteur = None     # si necessaire: coordonnee de l'emetteur du message
-        self.destinataire = None # dans le cas ou un destinataire particulier serait requis
-        self.traiteur = None     # nom du thread qui est en train de traiter le message 
-        self.requete = None      # la requete à traiter
-        self.delais = None       # delais de reexecution en minutes
-        self.reponse = None      # la reponse du traiteur
-        self.duree = None        # duree du traitement
+        self.Type           = 'Test'     # Type de la requete Test, Secenario, Requete...
+        self.statut         = 'A'        # 'A'=en Attente de traitement, 'E'=En-cours de traitement, 'F'=Fini
+        self.emetteur       = None       # si necessaire: coordonnee de l'emetteur du message
+        self.destinataire   = None       # dans le cas ou un destinataire particulier serait requis
+        self.traiteur       = None       # nom du thread qui est en train de traiter le message 
+        self.requete        = None       # la requete à traiter
+        self.delais         = None       # delais de reexecution en minutes
+        self.reponse        = None       # la reponse du traiteur
+        self.duree          = None       # duree du traitement
  
 ###############################################################################
 class TBlanc(object):
